@@ -1,0 +1,30 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of http://kiwilogic.com/.well-known/*
+host: http://kiwilogic.com
+notes: >-
+  The kiwilogic.com host serves a blanket 302 redirect to https://www.teneo.ai/
+  for every path, including the /.well-known/ discovery surface. No well-known
+  document is published on the Kiwilogic domain. HTTPS does not negotiate on
+  this host; probes were made over HTTP. Recorded as a negative result — no
+  WellKnown or SecurityTxt pointer is wired in apis.yml because nothing is
+  actually published.
+documents:
+- path: /.well-known/security.txt
+  status: 302
+  location: https://www.teneo.ai/
+- path: /.well-known/openid-configuration
+  status: 302
+  location: https://www.teneo.ai/
+- path: /.well-known/oauth-authorization-server
+  status: 302
+  location: https://www.teneo.ai/
+- path: /.well-known/api-catalog
+  status: 302
+  location: https://www.teneo.ai/
+- path: /.well-known/ai-plugin.json
+  status: 302
+  location: https://www.teneo.ai/
+- path: /llms.txt
+  status: 302
+  location: https://www.teneo.ai/

@@ -1,0 +1,51 @@
+generated: '2026-07-19'
+method: searched
+source: https://earlybird.com/companies/kiwilogic-com-ag
+status: discontinued
+summary: >-
+  Kiwilogic.com AG is no longer an operating API provider. The company was founded
+  in 1999 in Hamburg, Germany, shipped the Lingubot natural-language dialogue
+  platform, and was acquired in the mid-2000s. Its conversational-AI product line
+  was folded into Artificial Solutions and is marketed today as the Teneo platform.
+company:
+  founded: '1999'
+  headquarters: Hamburg, Germany
+  offices:
+  - Hamburg, Germany
+  - London, United Kingdom
+  founder: Karl-Ludwig von Wendt
+  investors:
+  - Earlybird Venture Capital
+  outcome: acquired
+  successor:
+    name: Teneo.ai (Artificial Solutions)
+    url: https://www.teneo.ai/
+    evidence: >-
+      http://kiwilogic.com/ returns a 302 redirect to
+      https://www.teneo.ai/?utm_source=as-redirect&utm_medium=referral&url=about-artificial-solutions/
+products:
+- name: Lingubot
+  description: >-
+    Commercial natural-language dialogue engine that let online businesses deploy
+    interactive virtual characters for customer service, product guidance and
+    entertainment across web and mobile messaging channels.
+  status: discontinued
+  successor_product: Teneo
+versioning:
+  scheme: unknown
+  current: null
+  docs: null
+  note: No public API versioning policy was ever published or is now retrievable.
+deprecation:
+  policy_url: null
+  sunset_header: null
+  note: >-
+    The entire developer surface is gone; the domain redirects rather than serving
+    any deprecation notice.
+sla: null
+status_page: null
+deprecated_operations: []
+references:
+- https://earlybird.com/companies/kiwilogic-com-ag
+- https://www.lt-world.org/kb/players-and-teams/organisations/companies/obj_75630
+- https://www.lt-world.org/kb/ipr-and-products/products/obj_90130

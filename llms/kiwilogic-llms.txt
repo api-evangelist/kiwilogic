@@ -1,0 +1,36 @@
+# Kiwilogic
+
+> Kiwilogic.com AG was a German conversational-AI pioneer founded in 1999 in Hamburg, with a
+> secondary office in London. It built Lingubot, one of the earliest commercial natural-language
+> dialogue engines for the web, letting online businesses deploy interactive virtual characters
+> that acted as store greeter, customer-support agent, product specialist and entertainer across
+> web sites and mobile messaging channels. Backed by Earlybird Venture Capital, the company won a
+> best-German-startup award in 2000. The Lingubot business was acquired in the mid-2000s and
+> folded into Artificial Solutions, whose Teneo conversational-AI and voice-AI platform is the
+> commercial successor. Kiwilogic operates no developer portal, documentation or API today; this
+> is a historical company record in the API Evangelist network.
+
+## Status
+
+- Company status: acquired / discontinued
+- Successor: [Teneo.ai (Artificial Solutions)](https://www.teneo.ai/) — http://kiwilogic.com/ 302-redirects here
+- APIs published: none
+
+## APIs
+
+No public API is published by Kiwilogic. No OpenAPI, AsyncAPI, GraphQL or gRPC definition exists
+for this provider, and no SDK is published on npm, PyPI or any other registry.
+
+## Company
+
+- [Earlybird Venture Capital portfolio profile](https://earlybird.com/companies/kiwilogic-com-ag)
+- [Kiwilogic on LinkedIn](https://www.linkedin.com/company/kiwilogic-com)
+- [Kiwilogic.com AG on LT World](https://www.lt-world.org/kb/players-and-teams/organisations/companies/obj_75630)
+- [Kiwilogic Lingubot Software on LT World](https://www.lt-world.org/kb/ipr-and-products/products/obj_90130)
+
+## Artifacts
+
+- [Lifecycle](https://raw.githubusercontent.com/api-evangelist/kiwilogic/refs/heads/main/lifecycle/kiwilogic-lifecycle.yml)
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/kiwilogic/refs/heads/main/security/kiwilogic-domain-security.yml)
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/kiwilogic/refs/heads/main/well-known/kiwilogic-well-known.yml)
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/kiwilogic/refs/heads/main/apis.yml)
