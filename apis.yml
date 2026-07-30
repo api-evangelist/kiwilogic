@@ -1,22 +1,81 @@
 aid: kiwilogic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kiwilogic.png
 name: Kiwilogic
-description: Kiwilogic is a company surfaced as a portfolio company of earlybird and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Kiwilogic.com AG was a German conversational-AI pioneer founded in 1999
+  in Hamburg, with a secondary office in London. It built the Lingubot platform, one
+  of the earliest commercial natural-language dialogue engines for the web, which let
+  online businesses deploy interactive virtual characters that acted as store greeter,
+  customer-support agent, product specialist and entertainer across web sites and mobile
+  messaging channels. The company was backed by Earlybird Venture Capital (approximately
+  $5.2M reported) and won a best-German-startup award in 2000. The Lingubot business
+  was acquired in the mid-2000s and folded into Artificial Solutions, whose Teneo conversational-AI
+  and voice-AI platform is the commercial successor; the kiwilogic.com domain now issues
+  a blanket redirect to teneo.ai. Kiwilogic operates no independent developer portal,
+  documentation, or API surface today, and this profile is maintained as a historical
+  company record within the API Evangelist network rather than as an active API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/kiwilogic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - earlybird
+x-status: acquired
+x-successor: https://www.teneo.ai/
+x-founded: '1999'
+x-headquarters: Hamburg, Germany
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: historical-company-no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Conversational AI
+- Chatbots
+- Natural Language Processing
+- Virtual Agents
+- Customer Service
+- Language Technology
+- Germany
+- Acquired
+- Historical
 apis: []
+common:
+- type: Website
+  name: Kiwilogic website (302 redirect to Teneo.ai)
+  url: http://www.kiwilogic.com/
+- type: LinkedIn
+  name: Kiwilogic on LinkedIn
+  url: https://www.linkedin.com/company/kiwilogic-com
+- type: Investor
+  name: Earlybird Venture Capital portfolio profile
+  url: https://earlybird.com/companies/kiwilogic-com-ag
+- type: Lifecycle
+  name: Company and product lifecycle
+  url: lifecycle/kiwilogic-lifecycle.yml
+- type: DomainSecurity
+  name: Domain security probe
+  url: security/kiwilogic-domain-security.yml
+- type: LLMsTxt
+  name: llms.txt
+  url: llms/kiwilogic-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
